@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modulo di Contatto</title>
+  </head>
+  <body>
+    <h1>Contattami</h1>
+
+    <form method="post">
+        <!-- Qui dovrebbe esserci un'etichetta per il campo "Nome" usando il tag <label> -->
+        <label for="nome">Nome</label>
+        <!-- Qui dovrebbe esserci un campo di input per il testo del "Nome" usando il tag <input type="text"> -->
+        <input id="nome" type="text" placeholder="Inserisci qui il tuo nome"></input>
+        <br /><br />
+
+        <!-- Qui dovrebbe esserci un'etichetta per il campo "Email" usando il tag <label> -->
+        <label for="email">E-mail</label>
+        <!-- Qui dovrebbe esserci un campo di input per l'email usando il tag <input type="email"> -->
+        <input id="email" type="text" placeholder="Inserisci qui il tuo indirizzo e-mail"></input>
+        <br /><br />
+
+        <!-- Qui dovrebbe esserci un'etichetta per il campo "Messaggio" usando il tag <label> -->
+        <label for="messaggio">Messaggio</label>
+        <!-- Qui dovrebbe esserci un'area di testo multilinea per il "Messaggio" usando il tag <textarea> -->
+        <input id="messaggio" type="text" placeholder="Inserisci qui il tuo messaggio"></input>
+        <br /><br />
+
+        <!-- Qui dovrebbe esserci un'etichetta per il campo "Motivo del contatto" -->
+        <label for="motivo-del-contatto">Causale</label>
+        <!-- Qui dovrebbe esserci un menu a discesa per il "Motivo del contatto" usando il tag <select> -->
+        <select id="motivo-del-contatto">
+        <!-- All'interno del <select>, dovrebbero esserci le opzioni usando il tag <option> -->
+        <!-- Esempio di opzione: <option value="info">Richiesta informazioni</option> -->
+            <option value="info">Richiesta informazioni</option>
+        <!-- Esempio di opzione: <option value="aiuto">Richiesta di supporto</option> -->
+            <option value="aiuto">Richiesta di supporto</option>
+        <!-- Esempio di opzione: <option value="altro">Altro</option> -->
+            <option value="altro">Altro...</option>
+        </select>
+        <br /><br />
+
+        <!-- Qui dovrebbe esserci un pulsante per inviare il modulo usando il tag <input type="submit"> -->
+        <input type="submit"></input>
+    </form>
+  </body>
+</html>
