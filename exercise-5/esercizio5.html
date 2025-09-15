@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esercizio 5 - Sito personale</title>
+</head>
+<body>
+  <!--
+    CONSEGNE:
+    Realizza una pagina personale completa che includa:
+    1. <header> con il tuo nome e un menu di navigazione (<nav>) con 3 link fittizi.
+    2. <main> con:
+       - una tua immagine profilo
+       - una sezione "Chi sono" con un paragrafo
+       - una sezione "Hobby" con una lista
+       - una sezione "Orario scolastico" con tabella
+    3. Un form di contatto in fondo con:
+       - nome
+       - email
+       - messaggio
+       - pulsante invio
+    4. <footer> con i tuoi contatti e copyright.
+    5. Aggiungi almeno un link che apra in nuova scheda.
+    6. Inserisci almeno un video di YouTube (iframe).
+    7. Aggiungi un link interno che riporti in cima alla pagina.
+  -->
+    <header>
+        <h1>Francesco</h1>
+        <nav>
+            <a href="https://theonion.com/no-way-to-prevent-this-says-only-nation-where-this-regularly-happens/">Ultime notizie</a>
+            <a href="https://www.youtube.com/watch?v=C7SOLUOEtJg">Gatti(?)</a>
+            <a href="https://www.theatlantic.com/technology/archive/2014/07/makeup/374929/">Moda</a>
+        </nav>
+    </header>
+    <main>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsfondo.info%2Fi%2Foriginal%2F8%2F8%2Fb%2F68525.jpg&f=1&nofb=1&ipt=c43347d236ce448992dc1b0916441fb6d00921c70cce8a6d0d099a57a89d3783" width="200px" height="400px">
+        <div id="presentazione">
+            <h2>Chi sono</h2>
+            <p>Sono uno studente di cybersecurity presso l'ITS Academy meccanica e informatica di Lanciano (CH)</p>
+        </div>
+        <div id="hobby">
+            <h2>I miei hobby</h2>
+            <ul>
+                <li>Vibe coding</li>
+                <li>Doom scrolling</li>
+            </ul>
+        </div>
+        <div id="orario">
+            <h2>I miei orari</h2>
+            <table>
+                <th>Ora</th>
+                <th>Lunedì</th>
+                <th>Martedì</th>
+                <th>Mercoledì</th>
+                <th>Giovedì</th>
+                <th>Venerdì</th>
+                <tr>
+                    <td>8.30/9.30</td>
+                    <td>Doom scrolling</td>
+                    <td>Vibe coding</td>
+                    <td>Doom scrolling</td>
+                    <td>Vibe coding</td>
+                    <td>Doom scrolling</td>
+                </tr>
+                <tr>
+                    <td>9.30/12.30</td>
+                    <td>Vibe coding</td>
+                    <td>Doom scrolling</td>                    
+                    <td>Vibe coding</td>
+                    <td>Doom scrolling</td>
+                    <td>Vibe coding</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+        <fieldset>
+        <legend>Contattami</legend>
+        <form method="post">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="Inserisci qui il tuo nome"></input>
+            <br><br>
+            <label for="email">E-mail</label>
+            <input id="email" type="text" placeholder="Inserisci qui il tuo indirizzo e-mail"></input>
+            <br><br>
+            <label for="messaggio">Password</label>
+            <input id="messaggio" type="text" placeholder="Inserisci qui il tuo messaggio"></input>
+            <br><br>
+            <input type="submit"></input>
+        </fieldset>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Link innocuo</a>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G7X0TCbVevc?si=rvwUxCedyAvPzpk6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        <hr>
+        <a href="mailto:forlandi@itsmeccanicabruzzo.eu">Scrivimi una mail</a>
+        <p>Tutti i diritti sono riservati &copy;</p>
+    </footer>
+</body>
+</html>
